@@ -1,0 +1,29 @@
+  .navbar__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+
+  }
+
+  .navbar__link {
+    padding: .8em;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $senary;
+    }
+  }
+
+  // Common Styles
+
+  .navbarContainer {
+    background-color: $primary;
+
+  }
+
+  .blogNav {
+    padding: 1.3em 0;
+
+  }

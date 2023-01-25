@@ -1,0 +1,167 @@
+//Header
+.blogHeader {
+  position: relative;
+}
+
+.blogHeaderImg {
+  background-image: url(/assets/blog-image-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 50vh;
+
+  h1 {
+    position: absolute;
+    bottom: -50px;
+    left: 212px;
+    margin: 0;
+  }
+}
+
+// Blog Main Section
+.blogMain {
+  background-color: $secondary;
+}
+
+.blogSection {
+  display: flex;
+  padding: 8em 0 6em 0;
+
+}
+
+.aboutSophie__Container {
+  margin: 0 2em;
+  flex: 1;
+}
+
+.aboutSophie {
+  margin-top: 1em;
+
+  p {
+    padding: .5em 0;
+  }
+}
+
+.aboutSophie__ContentContainer {
+  margin-bottom: 1em;
+}
+
+.aboutSophie__ContentContainer,
+.aboutSophie__recentPost {
+  background-color: $solidWhite;
+  padding: 1em;
+}
+
+
+.aboutSophie__recentPost {
+
+  h4 {
+    padding: .3em 0 .2em 0;
+  }
+}
+
+.aboutSophie__recentPost--list {
+
+  li {
+    margin-left: 1.2em;
+    list-style: disc;
+    color: $primary;
+
+  }
+
+  p {
+    color: $tertiary;
+    padding: 0;
+    margin: 0;
+  }
+
+}
+
+.blog {
+  margin-right: 2em;
+  flex: 3;
+}
+
+.blog__content,
+.blogReview__userImg,
+.blogReview__user1__content,
+.blogReview__user2__content {
+  background-color: $solidWhite;
+}
+
+.blogReview__user1__content,
+.blogReview__user2__content {
+  padding: 1.8em 1.5em 1.8em 0;
+
+  p {
+    padding: .5em 0 0 .0;
+
+    &:first-child {
+      color: $septenary;
+    }
+  }
+}
+
+.blog__content {
+  padding: 2em;
+
+  h3 {
+    padding-bottom: .5em;
+  }
+
+  p {
+    padding: .5em 0;
+  }
+}
+
+.blog__content,
+.blogReview {
+  border-bottom: .3em solid $primary;
+}
+
+.blogReview {
+  margin-top: 2em;
+}
+
+.blogReview__userFlex {
+  display: flex;
+  margin-top: 1em;
+
+
+  .blogReview__userImg {
+    width: 50%;
+    padding: 2.8em 1em 0 2em;
+  }
+}
+
+// Form
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+
+  input,
+  textarea {
+    outline: none;
+    border: none;
+  }
+
+  textarea {
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+    resize: none;
+  }
+}
+
+.form__input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+
+  input {
+    height: 3rem;
+    padding-left: 1.5em;
+    width: 49.5%;
+  }
+}

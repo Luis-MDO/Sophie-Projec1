@@ -1,0 +1,65 @@
+.fourByFour__flex {
+  display: flex;
+  position: relative;
+  width: 100%;
+
+
+  img {
+    width: 28rem;
+  }
+}
+
+.fourByFour__Content {
+  width: 25rem;
+}
+
+.fourByFour__topContentContainer {
+  padding: 5% 0 0 55%;
+
+}
+
+.fourByFour__bottomContentContainer {
+  text-align: right;
+  padding: 3% 0 8% 8%;
+}
+
+//Offset Layout
+.fourByFour__topImgContainer--offset,
+.fourByFour__bottomImgContainer--offset {
+  height: 350px;
+  width: 49%;
+}
+
+
+.fourByFour__topImgContainer {
+  position: relative;
+}
+
+.fourByFour__topImgContainer--offset {
+  background-color: $quinary;
+  position: absolute;
+  top: -2rem;
+  left: 0;
+
+
+  .fourByFour__topImg {
+    position: absolute;
+    top: -1rem;
+    right: 1rem;
+  }
+}
+
+
+
+.fourByFour__bottomImgContainer--offset {
+  background-color: $primary;
+  position: absolute;
+  bottom: -2.5rem;
+  right: 0;
+
+  .fourByFour__bottomImg {
+    position: absolute;
+    top: -1rem;
+    left: -1rem;
+  }
+}

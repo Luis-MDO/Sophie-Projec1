@@ -1,0 +1,51 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/styles"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "/**/node_modules/**",
+    "/.vscode/**"
+  ],
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+  "cSpell.words": [
+    "accusamus",
+    "adipisicing",
+    "amet",
+    "assumenda",
+    "blode",
+    "commodi",
+    "deserunt",
+    "dignissimos",
+    "Doloribus",
+    "dolorum",
+    "elit",
+    "excepturi",
+    "explicabo",
+    "favourite",
+    "fugiat",
+    "illum",
+    "ipsa",
+    "iste",
+    "Iure",
+    "nesciunt",
+    "nulla",
+    "obcaecati",
+    "odio",
+    "odit",
+    "officia",
+    "optio",
+    "quas",
+    "reiciendis",
+    "Rerum",
+    "sapiente",
+    "Temporibus",
+    "totam",
+    "voluptate",
+    "voluptatum"
+  ]
+}

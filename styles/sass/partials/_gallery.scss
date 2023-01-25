@@ -1,0 +1,12 @@
+.gallery__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 3em 0;
+}
+
+.gallery__imgContainer {
+  margin: 1em;
+
+}

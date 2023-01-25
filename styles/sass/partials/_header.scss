@@ -1,0 +1,43 @@
+.mainHeader {
+  height: 870px;
+  background-color: $primary;
+  position: relative;
+}
+
+.headerContent__heading {
+  position: absolute;
+  top: 262px;
+  left: 164px;
+
+  .heading__circle-text {
+    width: 9rem;
+    position: absolute;
+    top: 16px;
+    left: -66px;
+
+  }
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  .headerContent__imgContainer {
+    background-color: $senary;
+    position: absolute;
+    top: 148px;
+    right: 4%;
+    width: 39%;
+    max-width: 500px;
+  }
+}
+
+.hamburgerMenu {
+  display: none;
+}
+
+// Image offset
+.headerContentImg--offset {
+  box-shadow: 15px 15px 0 0 $solidWhite;
+}

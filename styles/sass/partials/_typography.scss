@@ -1,0 +1,120 @@
+  //Common
+  body {
+    line-height: 32px;
+    letter-spacing: 0;
+    @include fontSize(20);
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  a {
+    letter-spacing: 0.063rem;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-family: $secondaryFont;
+    font-weight: 700;
+    line-height: 5.75rem;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    @include fontSize(80);
+  }
+
+  // Navigation
+  .navbar__link {
+    font-weight: 700;
+    text-align: right;
+    line-height: 1.813rem;
+    @include fontSize(20);
+  }
+
+  .big--link {
+    font-family: $secondaryFont;
+    @include fontSize(55);
+  }
+
+  .hamburgerMenu {
+
+    i {
+      @include fontSize(35);
+    }
+  }
+
+  //Header
+
+  .headerContent__heading {
+    h1 {
+      @include fontSize(120);
+    }
+  }
+
+  //Buttons
+  .btn {
+    background-color: $quaternary;
+    padding: 1em 1.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    @include fontSize(20);
+    opacity: .7;
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+  }
+
+  // WhoSophie Section 
+
+  .whoSophie__content {
+    h2 {
+      font-weight: 700;
+      @include fontSize(42);
+    }
+  }
+
+  // Favourite and Travelled Section
+
+  .favouriteTravelled {
+    h3 {
+      @include fontSize(32);
+    }
+  }
+
+
+  // Blog Page 
+
+  .blogReview__user1__content,
+  .blogReview__user2__content {
+
+    p {
+
+      &:first-child {
+        font-weight: 700;
+        @include fontSize(24);
+      }
+    }
+  }
+
+
+  //Contact Page
+  .contact__SocialMedia {
+    i {
+      @include fontSize(30);
+      color: $primary;
+    }
+  }
+
+  .address {
+    a {
+      text-transform: lowercase;
+    }
+
+    a[href="mailto:#"] {
+      font-weight: 700;
+    }
+  }
